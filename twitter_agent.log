@@ -1,0 +1,124 @@
+2025-03-19 15:14:07,249 - TwitterAgent - ERROR - Twitter API credentials not found in environment variables
+2025-03-19 16:05:01,683 - TwitterAgent - ERROR - Twitter API credentials not found in environment variables
+2025-03-19 16:09:10,300 - TwitterAgent - INFO - Authentication successful
+2025-03-19 16:09:10,301 - TwitterAgent - INFO - Twitter Agent initialized
+2025-03-19 16:09:18,412 - TwitterAgent - INFO - Found 5 trending AI topics
+2025-03-19 16:09:18,413 - TwitterAgent - WARNING - OpenAI API key not found, using template-based generation
+2025-03-19 16:11:12,257 - TwitterAgent - INFO - Authentication successful
+2025-03-19 16:11:12,257 - TwitterAgent - INFO - Twitter Agent initialized
+2025-03-19 16:11:19,509 - TwitterAgent - INFO - Found 5 trending AI topics
+2025-03-19 16:11:24,924 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 16:13:41,358 - TwitterAgent - INFO - Authentication successful
+2025-03-19 16:13:41,359 - TwitterAgent - INFO - Twitter Agent initialized
+2025-03-19 16:13:48,805 - TwitterAgent - INFO - Found 5 trending AI topics
+2025-03-19 16:13:52,499 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 16:15:56,712 - TwitterAgent - INFO - Authentication successful
+2025-03-19 16:15:56,714 - TwitterAgent - INFO - Twitter Agent initialized
+2025-03-19 16:16:03,686 - TwitterAgent - INFO - Found 5 trending AI topics
+2025-03-19 16:16:07,362 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 16:16:13,073 - TwitterAgent - ERROR - Failed to post tweet: 403 Forbidden
+453 - You currently have access to a subset of X API V2 endpoints and limited v1.1 endpoints (e.g. media post, oauth) only. If you need access to this endpoint, you may need a different access level. You can learn more here: https://developer.x.com/en/portal/product
+2025-03-19 16:25:30,334 - TwitterAgent - INFO - Authentication successful
+2025-03-19 16:25:30,335 - TwitterAgent - INFO - Twitter Agent initialized
+2025-03-19 16:25:37,108 - TwitterAgent - INFO - Found 5 trending AI topics
+2025-03-19 16:25:41,093 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 16:25:41,119 - TwitterAgent - ERROR - Failed to post tweet: post_tweet_v2() got multiple values for argument 'content'
+2025-03-19 16:27:24,167 - TwitterAgent - INFO - Authentication successful
+2025-03-19 16:27:24,168 - TwitterAgent - INFO - Twitter Agent initialized
+2025-03-19 16:27:31,184 - TwitterAgent - INFO - Found 5 trending AI topics
+2025-03-19 16:27:35,546 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 16:27:41,023 - TwitterAgent - ERROR - Failed to post tweet: 403 - {
+  "title": "Unsupported Authentication",
+  "detail": "Authenticating with OAuth 2.0 Application-Only is forbidden for this endpoint.  Supported authentication types are [OAuth 1.0a User Context, OAuth 2.0 User Context].",
+  "type": "https://api.twitter.com/2/problems/unsupported-authentication",
+  "status": 403
+}
+2025-03-19 16:27:41,023 - TwitterAgent - INFO - Tweet posted successfully: Exciting advancements in AI! Engineering Scientific Assistants through Interactive Structured Induction of Programs is revolutionizing machine learning. 🤖⚙️ #AI #MachineLearning Dive into the future of intelligent systems! #TechTuesday
+2025-03-19 16:50:56,514 - TwitterAgent - INFO - Authentication successful
+2025-03-19 16:50:56,514 - TwitterAgent - INFO - Twitter Agent initialized
+2025-03-19 16:51:04,436 - TwitterAgent - INFO - Found 5 trending AI topics
+2025-03-19 16:51:09,396 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 16:51:09,429 - TwitterAgent - ERROR - Failed to post tweet: 'NoneType' object has no attribute 'create_tweet'
+2025-03-19 16:51:09,430 - TwitterAgent - INFO - Tweet posted successfully: Exciting news in AI! 🤖 KG-IRAG is revolutionizing temporal reasoning with its Knowledge Graph-Based Iterative Retrieval-Augmented Generation framework. 📈 Stay ahead in #AI #MachineLearning! Learn more about this cutting-edge technology. #TechNews #Innovation
+2025-03-19 16:52:24,233 - TwitterAgent - INFO - Authentication successful
+2025-03-19 16:52:24,234 - TwitterAgent - INFO - Twitter Agent initialized
+2025-03-19 16:52:32,249 - TwitterAgent - INFO - Found 5 trending AI topics
+2025-03-19 16:52:39,235 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 16:52:45,165 - TwitterAgent - ERROR - Failed to post tweet: 403 Forbidden
+Your client app is not configured with the appropriate oauth1 app permissions for this endpoint.
+2025-03-19 16:52:45,165 - TwitterAgent - INFO - Tweet posted successfully: Exciting news! 🌟 VisEscape sets the benchmark for exploring decision-making in virtual escape rooms. 🧩🔍 Dive into the world of AI-driven adventures! #AI #MachineLearning #VisEscape #EscapeRooms #Innovation
+2025-03-19 17:21:32,022 - TwitterAgent - INFO - Authentication successful
+2025-03-19 17:21:32,023 - TwitterAgent - INFO - Twitter Agent initialized
+2025-03-19 17:21:34,123 - TwitterAgent - INFO - Found 5 trending AI topics
+2025-03-19 17:21:36,901 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 17:21:37,751 - TwitterAgent - INFO - Tweet posted successfully: Response(data={'id': '1902327093897347498', 'text': "Exciting advancements in AI! 🤖📈 Researchers are measuring AI's ability to complete long tasks, pushing boundaries in #AI and #MachineLearning. How far can AI go? Stay updated and explore the possibilities! #ArtificialIntelligence #Tech #Innovation", 'edit_history_tweet_ids': ['1902327093897347498']}, includes={}, errors=[], meta={})
+2025-03-19 17:21:37,752 - TwitterAgent - INFO - Tweet posted successfully: Exciting advancements in AI! 🤖📈 Researchers are measuring AI's ability to complete long tasks, pushing boundaries in #AI and #MachineLearning. How far can AI go? Stay updated and explore the possibilities! #ArtificialIntelligence #Tech #Innovation
+2025-03-19 17:39:53,675 - TwitterAgent - INFO - Authentication successful
+2025-03-19 17:39:53,677 - TwitterAgent - INFO - Twitter Agent initialized
+2025-03-19 17:39:55,579 - TwitterAgent - INFO - Found 5 trending AI topics
+2025-03-19 17:39:57,663 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 17:39:58,309 - TwitterAgent - INFO - Tweet posted successfully: Response(data={'text': 'Exciting news in the world of AI! 🤖🚦 Check out this Parallel Hybrid Action Space RL Model for traffic signal control. Adaptive and real-world ready! 🌐 #AI #MachineLearning #TrafficControl #Innovation [question] Ready to revolutionize our streets? 🚗💡', 'id': '1902331710639099941', 'edit_history_tweet_ids': ['1902331710639099941']}, includes={}, errors=[], meta={})
+2025-03-19 17:39:58,309 - TwitterAgent - INFO - Tweet posted successfully: Exciting news in the world of AI! 🤖🚦 Check out this Parallel Hybrid Action Space RL Model for traffic signal control. Adaptive and real-world ready! 🌐 #AI #MachineLearning #TrafficControl #Innovation [question] Ready to revolutionize our streets? 🚗💡
+2025-03-19 23:06:13,318 - TwitterAgent - INFO - Authentication successful
+2025-03-19 23:06:13,319 - TwitterAgent - INFO - Twitter Agent initialized
+2025-03-19 23:06:19,586 - TwitterAgent - INFO - Found 5 trending AI topics
+2025-03-19 23:06:26,075 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 23:09:48,436 - TwitterAgent - INFO - Authentication successful
+2025-03-19 23:09:48,437 - TwitterAgent - INFO - Twitter Agent initialized
+2025-03-19 23:09:54,629 - TwitterAgent - INFO - Found 5 trending AI topics
+2025-03-19 23:10:00,974 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-19 23:10:06,631 - TwitterAgent - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1902414792809427062'], 'text': '"Ever imagined AI solving virtual puzzles? 🧩 Well, that\'s exactly what VisEscape is all about! It\'s a new benchmark for testing exploration-driven decision-making in virtual escape rooms. Interesting, right? 😃 Dive in and explore! #AI #MachineLearning #VisEscape 💻🚀"', 'id': '1902414792809427062'}, includes={}, errors=[], meta={})
+2025-03-19 23:10:06,631 - TwitterAgent - INFO - Tweet posted successfully: "Ever imagined AI solving virtual puzzles? 🧩 Well, that's exactly what VisEscape is all about! It's a new benchmark for testing exploration-driven decision-making in virtual escape rooms. Interesting, right? 😃 Dive in and explore! #AI #MachineLearning #VisEscape 💻🚀"
+2025-03-20 01:25:06,508 - TwitterAgent - INFO - Authentication successful
+2025-03-20 01:25:06,509 - TwitterAgent - INFO - Twitter Agent initialized
+2025-03-20 01:25:13,969 - TwitterAgent - INFO - Found 5 trending AI topics
+2025-03-20 01:25:20,632 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 01:25:26,247 - TwitterAgent - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1902448848901173323'], 'text': '"Ever wondered how well #AI can tackle long tasks? 🤔 We\'re diving deep into measuring AI\'s stamina &amp; resilience! 💪🤖 Join us as we explore this fascinating world of #MachineLearning. What do you think the results will be? Share your thoughts! #AIDurability 💻🌍"', 'id': '1902448848901173323'}, includes={}, errors=[], meta={})
+2025-03-20 01:25:26,248 - TwitterAgent - INFO - Tweet posted successfully: "Ever wondered how well #AI can tackle long tasks? 🤔 We're diving deep into measuring AI's stamina & resilience! 💪🤖 Join us as we explore this fascinating world of #MachineLearning. What do you think the results will be? Share your thoughts! #AIDurability 💻🌍"
+2025-03-20 02:05:13,682 - TwitterAgent - INFO - Authentication successful
+2025-03-20 02:05:13,683 - TwitterAgent - INFO - Twitter Agent initialized
+2025-03-20 02:05:20,495 - TwitterAgent - INFO - Found 5 trending AI topics
+2025-03-20 02:05:27,348 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 02:05:33,301 - TwitterAgent - INFO - Tweet posted successfully: Response(data={'edit_history_tweet_ids': ['1902458943886258634'], 'text': "Hey buddy, you won't believe this, but AI is now acing long tasks too! 😲 Measuring their ability is a game-changer. Can you imagine that? Check this out 👉 [insert link] #AI #MachineLearning #LongTasks. Let's chat about it. What do you think? 🤔🚀", 'id': '1902458943886258634'}, includes={}, errors=[], meta={})
+2025-03-20 02:05:33,302 - TwitterAgent - INFO - Tweet posted successfully: Hey buddy, you won't believe this, but AI is now acing long tasks too! 😲 Measuring their ability is a game-changer. Can you imagine that? Check this out 👉 [insert link] #AI #MachineLearning #LongTasks. Let's chat about it. What do you think? 🤔🚀
+2025-03-20 02:16:40,343 - TwitterAgent - INFO - Authentication successful
+2025-03-20 02:16:40,343 - TwitterAgent - INFO - Twitter Agent initialized
+2025-03-20 02:18:06,820 - TwitterAgent - INFO - Authentication successful
+2025-03-20 02:18:06,821 - TwitterAgent - INFO - Twitter Agent initialized
+2025-03-20 02:18:13,092 - TwitterAgent - INFO - Found 5 trending AI topics
+2025-03-20 02:18:21,864 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 02:18:21,900 - TwitterAgent - ERROR - Failed to post tweet or comment: 'Client' object has no attribute 'update_status'
+2025-03-20 02:20:25,593 - TwitterAgent - INFO - Authentication successful
+2025-03-20 02:20:25,594 - TwitterAgent - INFO - Twitter Agent initialized
+2025-03-20 02:20:31,545 - TwitterAgent - INFO - Found 5 trending AI topics
+2025-03-20 02:20:39,868 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 02:20:45,637 - TwitterAgent - INFO - Tweet posted successfully: Hey, have you ever wondered how #AI manages to complete long tasks? It's all about measuring their ability and it's quite fascinating! Why not dive into it? #MachineLearni... https://www.technologyreview.com/2020/08/25/1007589/ai-can-do-almost-anything-if-you-give-it-enough-data/
+2025-03-20 02:20:46,102 - TwitterAgent - INFO - Follow-up comment posted successfully: Isn't it amazing how AI can handle complex tasks? What's the most impressive AI capability you've heard of?
+2025-03-20 02:27:32,569 - TwitterAgent - INFO - Authentication successful
+2025-03-20 02:27:32,570 - TwitterAgent - INFO - Twitter Agent initialized
+2025-03-20 02:27:38,805 - TwitterAgent - INFO - Found 5 trending AI topics
+2025-03-20 02:27:47,665 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 02:27:53,350 - TwitterAgent - INFO - Tweet posted successfully: Hey, can you imagine traffic lights that adapt in real-time to reduce congestion? 🚦 It's all thanks to AI! This model u... https://www.researchgate.net/publication/334419862_A_Parallel_Hybrid_Action_Space_Reinforcement_Learning_Model_for_Real-world_Adaptive_Traffic_Signal_Control
+2025-03-20 02:27:53,781 - TwitterAgent - INFO - Follow-up comment posted successfully: Isn't it exciting to see how AI can make our daily commutes smoother? Can't wait to see what's next! 🚀 What other everyday annoyances do you think AI can tackle?
+2025-03-20 02:30:20,500 - TwitterAgent - INFO - Authentication successful
+2025-03-20 02:30:20,502 - TwitterAgent - INFO - Twitter Agent initialized
+2025-03-20 02:30:26,518 - TwitterAgent - INFO - Found 5 trending AI topics
+2025-03-20 02:30:33,934 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 02:30:39,550 - TwitterAgent - INFO - Tweet posted successfully: Hey there, guess what? #AI is now controlling traffic lights! 🚦A Parallel Hybrid Action Space Reinforcement Learning Model is making our roads smarter and traffic smoother. Can you imagine that? #MachineLearning #SmartCities 🌆 https://arxiv.org/abs/2004.08476
+2025-03-20 02:30:39,954 - TwitterAgent - INFO - Follow-up comment posted successfully: Isn't it amazing how AI is being used to streamline our everyday lives? What other areas do you think could benefit from such innovations?
+2025-03-20 02:43:02,503 - TwitterAgent - INFO - Authentication successful
+2025-03-20 02:43:02,504 - TwitterAgent - INFO - Twitter Agent initialized
+2025-03-20 02:43:09,118 - TwitterAgent - INFO - Found 5 trending AI topics
+2025-03-20 02:43:21,080 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 02:43:27,017 - TwitterAgent - INFO - Tweet posted successfully: Hey buddy, imagine a future where traffic signals adapt in real-time! 🚦😮 This #AI model is helping make it a reality. #MachineLearning making commutes smoother and cities smarter. Can you believe that? Check this out! #SmartCities #AdaptiveTraffic https://arxiv.org/abs/2004.12452
+2025-03-20 02:43:33,608 - TwitterAgent - INFO - Follow-up comment posted successfully: It's amazing to see how technology can transform our daily lives, isn't it? Who would've thought AI could be the answer to our traffic woes! 🚗💡
+2025-03-20 02:43:47,719 - TwitterAgent - INFO - Follow-up comment posted successfully: With this model, traffic signals don't just follow a set pattern. They learn and adapt based on the traffic flow, time of day, and other factors. Talk about a smart solution! 🧠🚦
+2025-03-20 02:43:55,243 - TwitterAgent - INFO - Follow-up comment posted successfully: So what's your take on this? Can you envision your city with adaptive traffic signals? Share your thoughts and let's keep the conversation going! #DiscussAI #FutureCities
+2025-03-20 02:51:25,557 - TwitterAgent - INFO - Authentication successful
+2025-03-20 02:51:25,559 - TwitterAgent - INFO - Twitter Agent initialized
+2025-03-20 02:51:25,559 - TwitterAgent - INFO - Generating tweet about custom topic: The impact of quantum computing on cybersecurity
+2025-03-20 02:51:34,869 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 02:51:40,600 - TwitterAgent - INFO - Tweet posted successfully: You won't believe how #QuantumComputing is shaking up #CyberSecurity! 🚀 From encryption to threat detection, it's a game changer. Dive in and find out more! #TechTuesday 💻🔒 Explore this: https://www.ibm.com/blogs/research/2019/09/quantum-computing-cybersecurity/
+2025-03-20 02:51:53,386 - TwitterAgent - INFO - Follow-up comment posted successfully: Does the rise of quantum computing excite or concern you in terms of data protection? Share your thoughts! 💭
+2025-03-20 02:52:01,283 - TwitterAgent - ERROR - Failed to post tweet or comments: 429 Too Many Requests
+Too Many Requests
