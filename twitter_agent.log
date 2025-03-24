@@ -122,3 +122,19 @@ Your client app is not configured with the appropriate oauth1 app permissions fo
 2025-03-20 02:51:53,386 - TwitterAgent - INFO - Follow-up comment posted successfully: Does the rise of quantum computing excite or concern you in terms of data protection? Share your thoughts! 💭
 2025-03-20 02:52:01,283 - TwitterAgent - ERROR - Failed to post tweet or comments: 429 Too Many Requests
 Too Many Requests
+2025-03-20 12:58:08,611 - TwitterAgent - INFO - Authentication successful
+2025-03-20 12:58:08,611 - TwitterAgent - INFO - Twitter Agent initialized
+2025-03-20 12:58:27,844 - TwitterAgent - INFO - Authentication successful
+2025-03-20 12:58:27,845 - TwitterAgent - INFO - Twitter Agent initialized
+2025-03-20 12:59:30,468 - TwitterAgent - INFO - Authentication successful
+2025-03-20 12:59:30,469 - TwitterAgent - INFO - Twitter Agent initialized
+2025-03-20 12:59:30,469 - TwitterAgent - INFO - Generating tweet about custom topic: MCP is an open protocol that standardizes how applications provide context to LLMs. Think of MCP like a USB-C port for AI applications.
+2025-03-20 12:59:40,062 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-20 12:59:45,584 - TwitterAgent - ERROR - Failed to post tweet or comments: 429 Too Many Requests
+Too Many Requests
+2025-03-21 02:36:22,659 - TwitterAgent - INFO - Authentication successful
+2025-03-21 02:36:22,660 - TwitterAgent - INFO - Twitter Agent initialized
+2025-03-21 02:36:22,660 - TwitterAgent - INFO - Generating tweet about custom topic: MCP is an open protocol that standardizes how applications provide context to LLMs. Think of MCP like a USB-C port for AI applications.
+2025-03-21 02:36:31,609 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-21 02:36:37,217 - TwitterAgent - INFO - Tweet posted successfully: Ever imagined a USB-C port for AI applications? 🤔 That's exactly what MCP does! It's an open protocol standardizing how apps provide context to LLMs. Mind-blowing, right? 🚀 Learn more! #... https://www.aitrends.com/machine-learning/mcp-an-open-protocol-to-enable-ai-applications/
+2025-03-21 02:36:46,240 - TwitterAgent - INFO - Follow-up comment posted successfully: "How do you think MCP will revolutionize AI applications? Share your thoughts! 💡 #AIConversations"

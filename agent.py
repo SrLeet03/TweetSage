@@ -14,11 +14,12 @@ import tweepy.client
 load_dotenv()
 
 # Set up logging
+log_file_path = "/tmp/twitter_agent.log"  # Change log file path to /tmp
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler("twitter_agent.log"),
+        logging.FileHandler(log_file_path),  # Update the log file path
         logging.StreamHandler()
     ]
 )
@@ -44,10 +45,10 @@ class TwitterAgent:
                 self.access_token, self.access_token_secret
             )
             client = tweepy.Client(
-                consumer_key=api_key , 
-                consumer_secret=api_secret, 
-                access_token=access_token, 
-                access_token_secret=access_token_secret
+                consumer_key=self.api_key,
+                consumer_secret=self.api_secret,
+                access_token=self.access_token,
+                access_token_secret=self.access_token_secret
             )
             self.client = client
             api = tweepy.API(auth)
@@ -179,11 +180,11 @@ class TwitterAgent:
 
         try:
             
-            openai_key = os.environ.get("OPENAI_API_KEY")
+            openai_key =  os.getenv("OPENAI_API_KEY")
             
             if not openai_key:
                 logger.warning("OpenAI API key not found, using template-based generation")
-                return self._generate_template_tweet(topic)
+                raise KeyError("OpenAI API key not found")
             
             import openai
             openai.api_key = openai_key
@@ -448,7 +449,7 @@ class TwitterAgent:
 
         try:
             
-            openai_key = os.environ.get("OPENAI_API_KEY")
+            openai_key =  os.getenv("OPENAI_API_KEY")
             
             if not openai_key:
                 logger.warning("OpenAI API key not found, using template-based generation")
@@ -576,11 +577,11 @@ class TwitterAgent:
 
 if __name__ == "__main__":
     # Load credentials from environment variables for security
-    api_key = os.environ.get("TWITTER_API_KEY")
-    api_secret = os.environ.get("TWITTER_API_SECRET")
-    access_token = os.environ.get("TWITTER_ACCESS_TOKEN")
-    access_token_secret = os.environ.get("TWITTER_ACCESS_TOKEN_SECRET")
-    bearer_token = os.environ.get("TWITTER_BEARER_TOKEN")
+    api_key =  os.getenv("TWITTER_API_KEY")
+    api_secret =  os.getenv("TWITTER_API_SECRET")
+    access_token =  os.getenv("TWITTER_ACCESS_TOKEN")
+    access_token_secret =  os.getenv("TWITTER_ACCESS_TOKEN_SECRET")
+    bearer_token =  os.getenv("TWITTER_BEARER_TOKEN")
     
     
     # Check if credentials are available
@@ -598,8 +599,8 @@ if __name__ == "__main__":
     
     # agent.post_tweet_with_comments()
     
-    # custom_topic = "The impact of quantum computing on cybersecurity"
-    # agent.generate_and_post_custom_tweet(custom_topic)
+    custom_topic = "MCP is an open protocol that standardizes how applications provide context to LLMs. Think of MCP like a USB-C port for AI applications."
+    agent.generate_and_post_custom_tweet(custom_topic)
     
     # Or schedule regular tweets about trending AI topics
     # agent.schedule_tweets(frequency_hours=12)
